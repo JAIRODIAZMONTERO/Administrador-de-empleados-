@@ -1,0 +1,901 @@
+body{
+	background: url("../App_Imagenes/fondo3.jpg");
+	background-repeat: repeat;
+	background-size: 110%;
+	background-attachment: fixed;
+}
+
+#main{
+	width: 1100px;
+	background-color: white;
+	box-shadow: 5px 5px 5px black;
+	min-height: 500px;
+	margin: auto;
+	font-family: "verdana";
+	font-size: 10pt !important;
+}
+
+#logo{
+	width: 400px;
+	height: 260px;
+	left: 10px;
+	cursor: pointer;
+	margin-bottom: -45px;
+	top: 80px;
+	position: relative;
+}
+
+#titulo{
+	overflow: hidden;
+	width: 1106;
+	height: 300px;
+	margin: auto;
+	margin-bottom: -10px;
+	border-top: 50px rgb(0, 0, 0) solid;
+	margin-top: -28px;
+}
+
+#foto{
+	width: 1106px;
+	height: 700px; 
+	margin-top: -310px;
+}
+
+#mainmn{
+	width: 1067px;
+	background-color: rgb(20, 30, 40);
+	height: 43px;
+	margin: auto;
+	border-radius: 0px 0px 5px 5px;
+	margin-top: 10px;
+	position: relative;
+}
+
+#mainmn, #mainmn ul {
+	list-style: none;
+}
+
+#mainmn ul{
+	margin-left: 300px;
+}
+
+#mainmn li a{
+	text-decoration: none !important;
+	color: white;
+	font-family: "verdana";
+	font-size: 12pt;
+	padding: 12px;
+	background-color: rgb(20, 30, 40);
+	position: relative;
+	-webkit-transition: background-color 0.2s;
+	-webkit-border-top:0.2s;
+	-moz-transition: background-color 0.2s;
+	-moz-border-top: 0.2s;	
+}
+
+#mainmn a:hover{
+	background-color: RoyalBlue;
+	text-shadow: 0px 0px 3px blue;
+	border-top: 2px solid white;
+}
+
+#mainmn li{
+	margin-top: 13px;
+	float: left;
+	margin-left: 0px;
+	position: relative;	
+	width: 100px;
+	margin-left: 20px;
+}
+
+#mainmn  li ul{
+	position: absolute;
+	margin-left: -60px;
+	width: 200px;
+	overflow: hidden;
+	height: 200px;
+	border-radius: 0px 5px 5px 0px;	
+}
+
+#mainmn ul li{
+	margin-top: 24px;
+	
+}
+
+#mainmn ul li a{
+	padding: 12px 120px 12px 12px;
+}
+
+#mnui{
+	margin-left: 505px;
+}
+
+#home{
+	margin-left: 30px;
+	cursor: pointer;
+}
+
+#mnu_cuenta{
+	height: 50px;
+	background-color: black;
+}
+
+#salir{
+	margin-left: 1090px;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	top: 10px;
+	position: relative;
+	width: 100px;
+	color:blue;
+	font-size: 1em;	
+}
+
+#salir:hover{	
+	text-decoration: underline;
+}
+
+footer {
+	width: 1100px;
+	margin: auto;
+	text-align: center;
+	background-color: rgb(20, 30, 40);
+	height: 50px;
+	margin-top: -10px;
+	border-radius: 0px 0px 5px 5px;
+	color: lightGrey;
+	font-size: 0.7em;
+
+}
+
+#main h2{
+	padding: 2px;
+	background-color: lightBlue;
+	font-size: 14pt;
+	padding: 10px;
+	border-bottom: 3px solid rgb(20, 30, 40);
+}
+
+#divEmpleados h2{
+	width: 1080px;
+	
+}
+
+#social{
+	border-radius: 0px 0px 5px 5px;
+}
+
+#tblempleados{
+	width: 90%;
+	margin: auto;
+	border: 1px solid blue;
+	border-collapse: collapse;
+	background-color: rgb(230, 230, 230);
+	box-shadow: 5px 5px 15px black;
+}
+
+#tblempleados img{
+	width: 100%;
+	height: 100%;
+	margin-right: -28px;
+	margin: auto;
+	cursor: pointer;
+}
+
+#tblempleados img:hover{
+	-webkit-filter:grayscale(1);
+	-moz-filter:grayscale(1);
+	-ms-filter:grayscale(1);
+	-o-filter:grayscale(1);
+}
+
+#colfoto{
+	width: 180px;
+	height: 215px;
+}
+
+#divEmpleados{
+	padding: 0px 0px 50px 0px;
+}
+
+#divEmpleados table tr td{
+	font-size: 10pt !important;
+}
+
+#divEmpleados button{
+	padding: 5px;
+}
+
+#divEmpleados table button{
+	padding: 3px;
+	width: 80px;
+}
+
+#btnm{
+	margin-left: -200px;
+}
+
+.btnEl{
+	margin-left: 20px;
+}
+
+#btnAg{
+	background-color: RoyalBlue;
+	color: black;
+	border: none;
+	width: 80px;
+	height: 30px;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 12pt;
+	margin-left: 800px;
+	margin-top: 10px;
+	opacity: 0.9;
+	box-shadow: inset 0px 0px 10px rgb(20,20,20);
+}
+
+#btnAg:hover{
+	box-shadow: inset 0px 0px 15px rgb(20,20,20);
+}
+
+#cinta{
+	width: 101.3%;
+	height: 10px;
+	background-color: RoyalBlue;
+	margin-top: -8px;
+	margin-left: -10px;
+}
+
+
+.req{
+	margin-left: 90px;
+	color: red;
+}
+
+#formEmpleados{
+	margin-top: 50px !important;
+	margin: auto;
+	width: 100%;
+}
+
+#salario{
+	margin-left: 0px !important;
+}
+
+#ft, #salario{
+	margin-left: 110px;
+}
+
+#direccion, #email{
+	width: 530px !important;
+}
+
+#formEmpleados button{
+	margin-left: 0px;
+	margin-top: 180px;
+	background-color: DodgerBlue;
+	box-shadow: inset 0px 0px 15px rgb(20,20,20);
+	padding: 10px;
+	width:200px;
+	border-radius: 5px;
+	border: none;
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+#formEmpleados button:hover{
+	box-shadow: inset 0px 0px 30px rgb(20,20,20);
+}
+
+#formEmpleados button:focus{
+	border: 2px solid DodgerBlue;
+}
+
+#formEmpleados table tr td{
+	padding: 5px;
+}
+
+#formEmpleados input, select{
+	padding: 5px;
+	border-radius: 3px;
+	border: 1px solid Grey;
+}
+
+#formEmpleados table{
+	width: 900px;
+}
+
+hr{
+	width: 90%;
+	border: 1px solid lightGrey;
+}
+
+#formEmpleados input:focus{
+	background-color: rgb(200,250,200);
+}
+
+#ffoto{
+	border: none !important;
+	width: 300px;
+}
+
+#btnfoto{
+	position: absolute;;
+	left: -25px;
+	top: 593px;
+	width: 100px !important;
+	font-weight: lighter !important;
+	font-size: 10pt !important;
+	background-color: lightGrey !important;
+}
+
+#tblPosiciones{
+	border-collapse: collapse;
+	width: 900px;
+	margin: auto;
+}
+
+#tblPosiciones th{
+	background-color: Grey;
+	border: 2px solid white;
+}
+
+#tblPosiciones tr{
+	border-bottom: 1px solid lightGrey;
+	margin-top: 10px;
+}
+
+#tblPosiciones tr:hover{
+	background-color: lightGrey;
+}
+
+#div_agregar_posicion form{
+	width: 600px;
+	margin: auto;
+	margin-top: 50px;
+}
+
+#div_agregar_posicion form input{
+	width: 300px;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid Grey;
+}
+
+#div_agregar_posicion table{
+	height: 180px;
+}
+
+#div_agregar_posicion form button{
+	margin-top: 80px;
+	margin-left: 600px;
+	padding: 10px;
+	width: 150px;
+}
+
+#div_modificar_posicion{
+	height: 450px;
+	width: 700px;
+	background-color: white;
+	left: 320px;
+	top: 60px;
+	position: fixed;
+	display: none;	
+}
+
+#btnGuardar{
+	left: 710px !important;
+}
+
+#overlay{
+	width: 10000px;
+	height: 1000px;
+	opacity: 0.9;
+	background-color: black;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	display: none;
+}
+
+#titulo_modificar{
+	padding: 10px;
+	background-color: RoyalBlue;
+	margin-top: 0px;
+	color: white;
+	font-family: "verdana";
+}
+
+#div_modificar_posicion form{
+	width: 600px;
+	margin-top: 50px;
+	margin-left: 85px;
+}
+
+#div_modificar_posicion form input{
+	padding: 5px;
+	width: 250px;
+	border-radius: 5px;
+	border: 1px solid Grey;
+}
+
+#div_modificar_posicion form table{
+	width: 550px;
+	height: 170px;
+}
+
+#div_modificar_posicion h2{
+	background-color: royalBlue;
+}
+
+#div_modificar_posicion form button{
+	margin-left: 450px;
+	margin-top: 100px;
+	padding: 8px;
+	width: 100px;
+}
+
+.btnM{
+	margin-left: 70px;
+}
+
+.tdSalario{
+	text-align: right;
+}
+
+.tdSuperior{
+	text-align: center;
+}
+
+.tdAccion{
+	width: auto;
+	text-align: right;
+}
+
+#divCodigo{
+	margin-left: 55px;
+	font-size: 1.5em;
+	background-color: black;
+	width: 185px; 
+	color: white;
+}
+
+#div_modificar_empleado{
+	display: none;
+	left: 125px;
+	top: 100px;
+	position: fixed;
+	background-color: white;
+}
+
+#div_modificar_empleado h2{
+	color: white;
+	background-color: royalBlue;
+	height: 30px;
+	margin-top: 0px;
+}
+
+#overlay_empleados{
+	opacity: 0.9;
+	width: 10000px;
+	height: 10000px;
+	position: fixed;
+	background-color: black;
+	left: 0px;
+	top: 0px;
+	display: none;
+}
+
+#div_cambiar_foto{
+	width: 500px;
+	height: 300px;
+	background-color: white;
+	left: 430px;
+	top: 100px;
+	display: none;
+	position: fixed;
+}
+
+#div_cambiar_foto h2{
+	background-color: royalBlue;
+	margin-top: 0px;
+	color: white;
+}
+
+#overlay_foto{
+	width: 10000px;
+	height: 10000px;
+	background-color: black;
+	opacity: 0.9;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	display: none;
+}
+
+#div_cambiar_foto form button{
+	margin-top: 100px;
+	position: relative;
+}
+
+#div_cambiar_foto form input{
+	background-color: black;
+	color: white;
+}
+
+#barra_progreso{
+	height: 10px;
+	width: 480px;
+	margin-left: 10px;
+	margin-top: 50px;
+	display: none;
+}
+
+#txtdireccion, #txtemail{
+	width: 400px;
+}
+
+#txtid{
+	background-color: lightBlue;
+}
+
+.validar{
+	background-color: rgb(100,10,10);
+}
+
+#g_organigrama{
+	width: 90%;
+	height: 70%;
+	margin-left: 50px;
+}
+
+#tbl_nomina{
+	width: 90%;
+	margin: auto;
+	font-size: 1em;
+}
+
+#tbl_nomina thead th{
+	background-color: black;
+	border: 1px solid white;
+}
+
+#tbl_nomina tr{
+	border-bottom: 1px solid lightGrey;
+	
+}
+
+.dinero{
+	text-align: right;
+}
+
+.btn_pdf{
+	margin-left: 835px;
+	margin-bottom: 10px;
+}
+
+tfoot tr{
+	border-top: 1px solid lightGrey;
+}
+
+#div_filtros form table {
+	width: 200px;
+	background-color: lightGreen;
+	border-radius: 10px;
+	border: 1px solid green;
+}
+
+#div_filtros{
+	margin-left: 10px;
+	width: 200px;
+	border-radius: 5px;
+	box-shadow: 5px 0px 10px lightGrey;
+	margin-bottom: 30px;
+}
+
+#tbl_social{
+	width: 77%;
+	margin-left: 225px;
+	margin-top: -405px;
+	border-collapse: collapse;
+	font-size: 1em;
+}
+
+#div_tbl_social table tr:hover{
+	background-color: lightGrey;
+	cursor: default;
+}
+
+
+.tbl_reportes th{
+	background-color: black;
+	color: white;
+	border: 1px solid white;	
+	font-weight: lighter;
+	font-size: 0.9em;
+}
+
+#div_filtros h4{
+	background-color: lightBlue;
+	margin-top: 0px;
+	padding: 5px;
+	border-radius: 5px 5px 0px 0px;
+}
+
+#div_filtros input, select{
+	margin-top: 10px;
+	width: 150px;
+	margin-left: 20px;
+}
+
+#div_filtros  input{
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid Grey;
+}
+
+#div_filtros button{
+	margin-top: 45px;
+	margin-left: 5px;
+	padding: 3px;
+	width: 60px;
+	margin-bottom: 10px;
+}
+
+#div_login{
+	width: 500px;
+	margin: auto;
+	margin-top: 150px;
+	float: center;
+}
+
+#div_login  input:focus{
+	background-color: rgb(220, 400, 600);	
+	outline: none;
+}
+
+#div_login form table{
+	height: 220px;
+	width: 400px;
+	margin-left: 60px;
+}
+
+#div_login form input{
+	padding: 6px;
+	width: 300px;
+	border-radius: 5px;
+	border: 1px solid Grey;
+}
+
+#div_login form button{
+	margin-left: 252px;
+	margin-top: 50px;
+	padding: 8px;
+	width: 100px;
+	background-color: royalBlue;
+	border-radius: 8px;
+	font-weight: bold;
+	border: 1px solid blue;
+	box-shadow: inset 0px 0px 0pc black;
+}
+
+#div_login form button:hover{
+	box-shadow: inset 0px 0px 1pc black;
+}
+
+#div_login h2{
+	background-color: RoyalBlue;
+	padding: 10px;
+	color: white;
+	font-family: "verdana";
+	border-bottom: 3px solid black;
+}
+
+#div_login form label{
+	color: black;
+	font-size: 1em;
+	font-weight: bold;
+	font-family: "Comic Sans";
+}
+
+#div_login form{
+	background-color: white;
+	margin-top: -20px;
+	position: relative;
+}
+
+
+
+
+
+#btn_todos{
+	margin-left: 20px !important;
+	width: 80px !important;
+}
+
+#personales{
+	width: 1100px;
+	min-height: 500px;
+	background-color: white;
+	margin: auto;
+	margin-bottom: 0px;
+	margin-top: -10px;
+}
+
+#personales h2{
+	background-color: lightBlue;
+	border-bottom: 3px solid black;
+	padding: 10px;
+	font-family: "verdana";
+}
+
+#datos{
+	
+}
+
+#foto_personal{
+	width: 200px;
+	height: 200px;
+}
+
+#datos table{
+	border: 1px solid black;
+	border-collapse: collapse;
+	margin: auto:;
+}
+
+#tbl_emp{
+	margin:auto;
+	margin-top: 10px;
+	width: 95%;
+}
+
+#emp_datos img{
+	margin-left: 50px;
+	height: 220px;
+}
+
+#tbl_datos_nomina{
+	margin:auto;
+	margin-top: 10px;
+	width: 90%;
+	margin-left: 300px;
+}
+
+#emp_info{
+	margin-top: -350px;
+	width: 500px;
+}
+
+#personales h4{}
+	
+
+#emp_info h4{
+	margin-left: 200px !important;
+	position:  relative;
+}
+
+#personales button{
+	margin-left:950px;
+}
+
+#div_clave>form>table{
+	width: 300px !important;
+	background-color: white;
+	margin-top: -20px;
+}
+
+#div_clave{
+	display: none;
+	position: fixed;
+	left: 545px;
+	top:100px; 
+}
+
+#emp_overlay{
+	left: 0px;
+	top: 0px;
+	width: 10000px;
+	height: 10000px;
+	position: fixed;
+	background-color: black;
+	opacity: 0.9;
+	display: none;
+}
+
+#div_clave h3{
+	color: white;
+	font-family: "verdana";
+	font-size: 1.5em;
+	padding: 5px;
+	background-color: royalBlue;
+}
+
+.org_posicion{
+	width: 150px;
+	height: 100px;
+	border-radius: 10px;
+	border: 2px solid royalBlue;	
+	cursor: pointer; 
+}
+
+.org_posicion:hover{
+	box-shadow: 0px 0px 20px Grey;
+}
+
+.org_posicion h4{
+	background-color: RoyalBlue ;
+	font-size: 1em;
+	font-family: "Tahoma";
+	padding: 5px;
+	margin-top: 0px;
+	border-radius: 7px 7px 0px 0px;
+}
+
+#presidente{
+	margin-left: 500px;
+}
+#gerente_mercadeo{
+	margin-left: 200px;
+	margin-top: 50px;
+}
+#gerente_produccion{
+	margin-left: 500px;
+	margin-top: -100px;
+}
+
+
+#gerente_contabilidad{
+	margin-left: 800px;
+	margin-top: -100px;
+}
+#Ingeniero_calidad{
+	margin-left: 400px;
+	margin-top: 50px;
+}
+#enc_proyectos{
+	margin-left: 610px;
+	margin-top: -100px;
+}
+#director_ejecutivo{
+	margin-left: 500px;
+	margin-top: 50px;
+}
+#vendedor{
+	margin-left: 190px;
+	margin-top: -110px;
+}
+#conserje{
+	margin-left: 400px;
+	margin-top: 60px;
+}
+#mecanico{
+	margin-left: 610px;
+	margin-top: -100px;
+}
+#operador_planta{
+	margin-left: 820px;
+	margin-top: -100px;
+}
+#mensajero{
+	margin-left: 820px;
+	margin-top: -270px;
+}
+
+#div_organigrama{
+	min-height: 800px;
+	margin-left: -20px;
+	margin-top: 50px;
+}
+
+#fondo_home{
+	width: 700px;
+	height: 450px;
+	margin-left: 200px;
+}
+#mensaje{
+	margin-left: 220px;
+	font-size: 2em;
+	margin-bottom:20px;
+
+}

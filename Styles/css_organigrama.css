@@ -1,0 +1,13 @@
+.org_posicion{
+	width: 200px;
+	height: 200px;
+	border-radius: 10px;
+	border: 2px solid white;
+}
+
+.org_posicion h4{
+	background-color: RoyalBlue ;
+	font-size: 1em;
+	font-family: "Tahoma";
+	padding: 5px;
+}
